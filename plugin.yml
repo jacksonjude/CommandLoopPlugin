@@ -1,0 +1,17 @@
+main: com.jacksonjude.CommandLoop.CommandLoopPlugin
+name: CommandLoop
+version: 1.0
+api-version: 1.16
+author: JJCooley
+description: Schedule a command to run at a specific time and optionally repeat
+commands:
+   commandloop:
+      description: Reload CommandLoop config
+      usage: /commandloop < reload >
+      aliases: [cl]
+      permission: commandloop.admin
+      permission-message: You cannot reload CommandLoop config
+permissions:
+   commandloop.admin:
+      description: Reload CommandLoop config
+      default: op

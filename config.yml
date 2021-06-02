@@ -1,0 +1,27 @@
+commands:
+   # hour-test:
+   #   # Command to run
+   #   command: "say hourtest"
+   #   # Time periods: Use range (ex. '0-5'), list (ex. '0,1,2,3,4,5'), both (ex. '0-2,4-8'), or use * to select all
+   #   time:
+   #      # What years included
+   #      year: "*"
+   #      # What months included (0 - 11)
+   #      month: "*"
+   #      # What weeks of the year included (1 - 52)
+   #      week: "*"
+   #      # What days of the month are included (1 - 31)
+   #      day: "*"
+   #      # What weekdays are included (1 - 7, starting Sunday)
+   #      weekday: "*"
+   #      # What hours are included (0 - 23)
+   #      hour: "*"
+   #      # What minutes are included (0 - 59)
+   #      minute: "0"
+   #   # Time zone (see https://github.com/nfergu/Java-Time-Zone-List)
+   #   timezone: America/Los_Angeles
+# The number of minutes between checks to run commands
+update-interval: 60
+# The minute interval to start on (ex. =1 will start on any minute, =5 will start on any minute divisible by 5, =60 will start on the hour)
+# This value should be greater than or equal to the update interval
+start-minute-interval: 60
